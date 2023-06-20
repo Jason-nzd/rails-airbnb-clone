@@ -13,22 +13,27 @@
     </div>
 
     <%# Central Div %>
-    <div class="h-10 text-xs my-auto flex ring-1 ring-gray-300 rounded-3xl shadow-md p-2 px-5 
-      mx-auto cursor-pointer hover:shadow-lg ease-in-out transition">
-      <div class="my-auto">Anywhere</div>
+    <div 
+      data-modal-target="modal-wrapper" 
+      data-modal-toggle="modal-wrapper" 
+      class="h-10 text-xs my-auto flex ring-1 ring-gray-300 rounded-3xl shadow-md p-1.5
+        mx-auto cursor-pointer hover:shadow-lg ease-in-out transition">
+      <div class="pl-4 my-auto font-semibold">Anywhere</div>
       <div class="px-3 my-auto text-gray-400">|</div>
-      <div class="my-auto">Any Week</div>
+      <div class="my-auto font-semibold">Any Week</div>
       <div class="px-3 my-auto text-gray-400">|</div>
       <div class="my-auto">Add Guests</div>
-      <div class="pl-3 m-auto text-red-500">
+      <div class="ml-3 m-auto p-2 text-white bg-red-500 rounded-3xl w-7 h-7">
         <%# Search Icon %>
         <svg 
           xmlns="http://www.w3.org/2000/svg" 
           viewBox="0 0 32 32" 
-          style="display:block;fill:none;height:14px;width:14px;stroke:currentColor;stroke-width:4;overflow:visible" 
+          style="display:block;fill:none;height:11px;width:11px;stroke:currentColor;stroke-width:4;overflow:visible" 
           aria-hidden="true" 
           role="presentation" 
-          focusable="false">
+          focusable="false"
+          class="mx-auto"
+        >
           <path fill="none" d="M13 24a11 11 0 1 0 0-22 11 11 0 0 0 0 22zm8-3 9 9"></path>
         </svg>
       </div>
